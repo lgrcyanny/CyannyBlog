@@ -1,0 +1,102 @@
+#jasdl-mainnav a {
+color:#fff;
+font-weight:normal;
+margin:0 3px 0 3px;
+}
+
+#jasdl-mainnav a:hover,
+#jasdl-mainnav ul li.hover a {
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+	background:url(../../images/menu-a.png) repeat-x center bottom;
+}
+
+#jasdl-mainnav{
+	background:#333; padding-bottom:50px;
+}
+
+#jasdl-mainnav li.active{
+}
+
+#jasdl-mainnav li{
+float: left; overflow: visible; margin: 0; padding: 0;
+}
+
+#jasdl-mainnav li:hover{
+}
+
+#ja-subnav ul li.haschild a.haschild:hover span.menu-title{}
+
+#ja-subnav ul li.haschild a.haschild span.menu-title{}
+
+#ja-subnav ul.active li a {}
+#ja-subnav ul li ul li a{padding-bottom:0;}
+#ja-subnav ul li ul li a:hover{color:#fff !important; background:url(../../images/menu-a.png) repeat-x center bottom; }
+
+#ja-subnav ul.active li a:hover{color:#777777;}
+
+#ja-subnav ul.active{}
+
+#ja-subnav ul li a:hover{color:#fff; background:url(../../images/menu-a.png) repeat-x center bottom; }
+
+#ja-subnav ul li ul li.active a.active, #ja-subnav ul li ul li.active a.active:hover, #ja-subnav ul li ul li.active a.active:active, #ja-subnav ul li ul li.active a.active:focus{
+color:#fff !important;
+}
+#ja-subnav ul li.active a.active, #ja-subnav ul li.active a.active:hover, #ja-subnav ul li.active a.active:active, #ja-subnav ul li.active a.active:focus{
+color:#fff;
+font-weight:normal;
+padding:0;
+}
+
+
+#ja-subnav ul li a {
+    color:#fff;
+    display: block;
+    text-decoration: none;
+	padding-bottom: 10px;
+}
+
+#jasdl-mainnav li.active a,
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus {background:url(../../images/menu-a.png) repeat-x center bottom;
+}
+
+/* Sub Nav ---*/
+#ja-subnav {	background: #333;
+	margin-top: 5px;
+	padding: 0;
+	
+}
+
+/* Sub Nav (lv2) ---*/
+#ja-subnav ul li ul {
+	background:#00AEEF;
+	border:none;
+	top:44px;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+}
+
+#ja-subnav ul li.hover ul{}
+
+#ja-subnav ul li ul li:hover{padding-left:13px; background:#333;}
+
+#ja-subnav ul li ul li { border-bottom:1px solid #ddd;
+}
+
+#ja-subnav li:hover{
+}
+
+#ja-subnav li{
+display: block;
+float: left;margin:0;padding:7px 10px 7px 10px;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+}
+
+#ja-subnav ul li ul li:first-child {
+}

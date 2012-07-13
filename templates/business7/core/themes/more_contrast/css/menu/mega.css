@@ -1,0 +1,147 @@
+
+.ja-megamenu a.over, .ja-megamenu a.active { color: #F37731;}
+
+#ja-megamenu li a.active, #ja-megamenu li a.active:hover,
+#ja-megamenu li a.active:active, #ja-megamenu li a.active:focus{
+background:url(../../images/menu-a.png) repeat-x center bottom;
+}
+
+.ja-megamenu .childcontent{
+z-index: 999;
+}
+.ja-megamenu li.mega .childcontent {
+    display: block;
+    height: auto;
+    position: absolute;
+	background: #00AEEF;
+	border:1px solid #ddd;
+}
+
+.ja-megamenu ul.level0{}
+
+.ja-megamenu ul.level0 li li .active{background:none; border:none;box-shadow:none;}
+
+.ja-megamenu ul.level0 li ul .active{
+	color:#fff !important;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+	background:#333 !important;
+	}
+
+.ja-megamenu ul.level0 li ul .active:hover{}
+
+#ja-megamenu a:hover, #ja-megamenu a:active, #ja-megamenu a:focus{ 
+color:#fff; background:url(../../images/menu-a.png) repeat-x center bottom;
+}
+
+ul.megamenu {
+    margin: 10px;
+}
+
+/* lv - 0
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level0 li.mega a.mega {
+	color:#FFFFFF;
+	padding: 8px 15px;font-weight: normal;margin: 0 3px;
+}
+
+.ja-megamenu ul.level0 li.mega:hover a.mega:hover{
+
+}
+
+.ja-megamenu ul.level0 li.mega{
+display: block;float: left;padding:0;
+-moz-transition: all 0.8s ease 0s;
+-webkit-transition:all 0.8s ease 0s;
+-o-transition: all 0.8s ease 0s;
+}
+.ja-megamenu ul.level0 li.mega:hover{}
+
+.ja-megamenu ul.level0 li.over, ul.level0 li.haschild-over {
+}
+
+.ja-megamenu ul.level0 li.active {
+}
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.mega {  float:none;  background:none;
+}
+
+.ja-megamenu ul.level1 li.first { border-top: 0; background:none; }
+
+.ja-megamenu ul.level1 li.mega:hover a.mega:hover {padding-left:13px; color:#009DED; background:none !important; }
+
+.ja-megamenu ul.level1 li.mega a.mega {
+	color:#fff;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+	border-bottom:1px dotted #DDDDDD;
+}
+
+.ja-megamenu ul.level1 li.over, ul.level1 li.haschild-over {
+box-shadow:none;
+background:#333 !important;
+}
+ /* CHILD CONTENT
+-----------------------------------*/
+.ja-megamenu .childcontent-inner {
+	background:none;
+	color: #fff;
+}
+
+.ja-megamenu .level1 .childcontent-inner {  }
+
+.ja-megamenu .childcontent .ja-moduletable { color:#fff; text-shadow: 1px 1px #333333;  }
+
+.ja-megamenu .childcontent .ja-moduletable a {
+	color:#fff;
+	border-bottom: 1px dotted #fff;
+}
+
+.ja-megamenu .childcontent ul.megamenu .ja-moduletable h3 span{
+background:none; border:none;
+}
+
+.ja-megamenu .childcontent ul.megamenu .ja-moduletable h3{
+box-shadow:none;
+}
+
+.ja-megamenu .childcontent .ja-moduletable h3 {
+	background: none;
+	border-bottom: 1px solid #ccc;
+	text-transform: uppercase;
+	color:#000;
+	text-shadow:none;
+}
+
+/* Grouped --- */
+.ja-megamenu .group-title { }
+
+.ja-megamenu .group-title .menu-title {
+	color:#fff !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 115%;
+}
+
+.ja-megamenu .group-title .menu-desc {
+	color:#000;
+	padding-left: 0 !important;
+}
+
+.ja-megamenu {
+background:#333333;
+}
+
+.ja-megamenu .childcontent .ja-moduletable a:hover, .ja-megamenu .childcontent .ja-moduletable a:focus, .ja-megamenu .childcontent .ja-moduletable a:active{
+background:none !important;
+text-decoration: none;
+}
+
+.moduletablefacebook{}
+.moduletablefacebook .ja-box-ct{ padding:0 !important;}
