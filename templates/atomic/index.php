@@ -39,7 +39,8 @@ $app = JFactory::getApplication();
 		<!-- The following line loads the template JavaScript file located in the template folder. It's blank by default. -->
 		<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/template.js"></script>
 	</head>
-	<body>
+
+<body>
 		<div class="container">
 			<hr class="space" />
 			<div class="joomla-header span-16 append-1">
